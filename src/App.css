@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+  /* background-image: linear-gradient(to right, #09327f, #06183b); */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  overflow: hidden !important;
+}
+
+.custom-shape-divider-bottom-1707203134 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+/* dashboard display */
+.l-b {
+  color: #495057;
+}
+.dp {
+  display: flex;
+}
+.dp-mb {
+  display: none;
+}
+.display-card {
+  width: 22%;
+}
+@media (max-width: 1200px) {
+  .display-card {
+    width: 47%;
+  }
+}
+@media (max-width: 990px) {
+  .fd {
+    flex-direction: column;
+  }
+  .wd {
+    width: 100%;
+    padding: 2rem 2rem;
+    margin: 10px;
+    /* margin-right: 3rem; */
+    /* margin: 5px 20px; */
+    /* margin: 0 50px; */
+  }
+  .wdd {
+    width: 100%;
+  }
+  .mtt {
+    margin-top: 40px;
+  }
+  .sid-nav {
+    position: absolute;
+  }
+  .dp {
+    display: none;
+  }
+  .dp-mb {
+    display: flex;
+  }
+}
+@media (max-width: 640px) {
+  .pic-none {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  .display-card {
+    width: 100%;
+  }
+}
+
+.disp-stu-adding {
+  display: flex;
+}
+.wid-stu-adding {
+  width: 33%;
+}
+
+@media (max-width: 991px) {
+  .disp-stu-adding {
+    display: flex;
+    flex-direction: column;
+  }
+  .wid-stu-adding {
+    width: 100%;
+  }
+  .addr {
+    width: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+  .inlin {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.custom-shape-divider-bottom-1707203134 svg {
+  position: relative;
+  display: block;
+  width: calc(108% + 1.3px);
+  height: 186px;
+}
+
+.custom-shape-divider-bottom-1707203134 .shape-fill {
+  fill: #0f5ef7;
+}
+
+.d-bg {
+  background: linear-gradient(to right, white, #F5F5DC, #FAFAFA);
+}
+
+.bod-in {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.bod-sin {
+  border: 1px solid #9698d6;
+}
+.lab-txt {
+  color: #9698d6;
+}
+.acc-det-bg {
+  background:
+    url(https://eskooly.com/bb/assets/bl.png) left bottom no-repeat,
+    url(https://eskooly.com/bb/assets/tr1.png) top right no-repeat;
+  background-size: 60px;
+}
+.bod-ip {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #9698d6;
+  border-radius: 60px;
+  margin: 0 auto;
+  padding-top: 25px;
+  background: #e6e9ff;
+}
+.mar-min {
+  margin-top: -20px;
+}
+
+.bord {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.max-w {
+  /* max-width: 450px; */
+  width: 23%;
+}
+.ww {
+  width: 30px;
+}
+
+.bg-sms {
+  background-image: linear-gradient(45deg, rgb(77, 76, 172), rgb(90, 89, 171));
+}
+
+.mar-sms {
+  margin-top: -25px;
+}
+
+.bg-m-dblue {
+  background: linear-gradient(45deg, #4d4cac, #5a59ab) !important;
+}
+.bg-m-orange {
+  background: linear-gradient(45deg, #ff808b, #f79099) !important;
+}
+
+.bg-m-gray {
+  background: linear-gradient(45deg, #9698d6, #a9abdb) !important;
+}
+
+.sideNav-shadow {
+  box-shadow: 2.4px 0px #888888;
+}
+
+.text-gray {
+  color: #9698d6;
+}
