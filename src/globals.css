@@ -97,16 +97,16 @@
     @apply bg-gradient-to-r from-white via-yellow-50 to-gray-50;
   }
   .bg-sms {
-    @apply bg-gradient-to-45 from-indigo-600 to-indigo-500;
+    @apply bg-gradient-to-r from-indigo-600 to-indigo-500;
   }
   .bg-m-dblue {
-    @apply bg-gradient-to-45 from-indigo-600 to-indigo-500;
+    @apply bg-gradient-to-r from-indigo-600 to-indigo-500;
   }
   .bg-m-orange {
-    @apply bg-gradient-to-45 from-orange-400 to-orange-300;
+    @apply bg-gradient-to-r from-orange-400 to-orange-300;
   }
   .bg-m-gray {
-    @apply bg-gradient-to-45 from-purple-400 to-purple-300;
+    @apply bg-gradient-to-r from-purple-400 to-purple-300;
   }
 
   /* Shadow and styling utilities */
