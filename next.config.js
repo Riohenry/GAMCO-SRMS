@@ -4,6 +4,9 @@ const nextConfig = {
   typescript: {
     tsconfigPath: './tsconfig.json',
   },
+  turbopack: {
+    root: __dirname,
+  },
 };
 
 module.exports = nextConfig;
