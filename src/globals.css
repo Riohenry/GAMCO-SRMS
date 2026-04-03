@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.6%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.6%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 91.2% 59.8%;
+    --secondary-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 217.2 91.2% 59.8%;
+    --accent-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  /* Dashboard display utilities */
+  .l-b {
+    @apply text-gray-600;
+  }
+  .dp {
+    @apply flex;
+  }
+  .dp-mb {
+    @apply hidden;
+  }
+  .display-card {
+    @apply w-[22%];
+  }
+  .fd {
+    @apply flex flex-col;
+  }
+  .wd {
+    @apply w-full p-8 m-2.5;
+  }
+  .wdd {
+    @apply w-full;
+  }
+  .mtt {
+    @apply mt-10;
+  }
+  .sid-nav {
+    @apply absolute;
+  }
+
+  /* Student adding utilities */
+  .disp-stu-adding {
+    @apply flex;
+  }
+  .wid-stu-adding {
+    @apply w-1/3;
+  }
+  .addr {
+    @apply w-full;
+  }
+  .inlin {
+    @apply flex;
+  }
+
+  /* Card and border utilities */
+  .bod-in {
+    @apply border border-gray-200;
+  }
+  .bod-sin {
+    @apply border border-purple-400;
+  }
+  .lab-txt {
+    @apply text-purple-400;
+  }
+
+  /* Background utilities */
+  .d-bg {
+    @apply bg-gradient-to-r from-white via-yellow-50 to-gray-50;
+  }
+  .bg-sms {
+    @apply bg-gradient-to-45 from-indigo-600 to-indigo-500;
+  }
+  .bg-m-dblue {
+    @apply bg-gradient-to-45 from-indigo-600 to-indigo-500;
+  }
+  .bg-m-orange {
+    @apply bg-gradient-to-45 from-orange-400 to-orange-300;
+  }
+  .bg-m-gray {
+    @apply bg-gradient-to-45 from-purple-400 to-purple-300;
+  }
+
+  /* Shadow and styling utilities */
+  .sideNav-shadow {
+    @apply shadow-md;
+  }
+  .text-gray {
+    @apply text-purple-400;
+  }
+  .bord {
+    @apply border border-gray-200;
+  }
+
+  /* Responsive utilities */
+  @media (max-width: 1200px) {
+    .display-card {
+      @apply w-[47%];
+    }
+  }
+  @media (max-width: 990px) {
+    .fd {
+      @apply flex-col;
+    }
+    .wd {
+      @apply w-full p-8 m-2.5;
+    }
+    .wdd {
+      @apply w-full;
+    }
+    .mtt {
+      @apply mt-10;
+    }
+    .sid-nav {
+      @apply absolute;
+    }
+    .dp {
+      @apply hidden;
+    }
+    .dp-mb {
+      @apply flex;
+    }
+  }
+  @media (max-width: 770px) {
+    .display-card {
+      @apply w-full;
+    }
+  }
+  @media (max-width: 640px) {
+    .pic-none {
+      @apply hidden;
+    }
+  }
+  @media (max-width: 330px) {
+    .inlin {
+      @apply flex-col;
+    }
+  }
+}
